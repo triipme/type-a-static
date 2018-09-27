@@ -1,0 +1,739 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+}
+
+p a {
+	color: #FFAE53;
+	font-weight: bold;
+}
+
+p a:hover,
+p a:active,
+p a:focus,
+p a:visited {
+	color: #FFAE53;
+}
+
+/* components */
+.paragraph {
+	font-size: 16px;
+}
+
+.desc {
+	font-size: 16px;
+}
+
+.orange {
+	color: #FFAE53;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.heading {
+	/* “WHAT NEXT?’’: */
+	font-weight: 900;
+	font-size: 24px;
+	color: #FFAE53;
+	letter-spacing: 2.78px;
+	margin-bottom: 15px;
+}
+
+.heading span {
+	border-bottom: 2px solid;
+}
+
+
+.sub-heading {
+	/* ASIA’S HAPPIEST COUN: */
+	font-weight: 700;
+	font-size: 18px;
+	color: #3E5B71;
+	letter-spacing: 0.65px;
+	margin-bottom: 60px;
+}
+
+.small-sub-heading {
+	font-weight: bold;
+	color: #3E5B71;
+}
+
+.super-heading {
+	/* WORLD’S FIRST TYPE-A: */
+	font-weight: 900;
+	color: #FFFFFF;
+	letter-spacing: 7.07px;
+	text-shadow: 5px 0 #602600;
+	margin-bottom: 60px;
+	font-size: 40px;
+	line-height: 1em;
+}
+
+.main > section {
+	padding-top: 30px;
+	padding-bottom: 52px;
+}
+
+.btn.btn-apply {
+	background: #2A4254;
+	padding: 5px 30px;
+	font-weight: 700;
+	font-size: 24px;
+	color: #FFFFFF;
+	letter-spacing: 1.04px;
+	border-radius: 0;
+	transition: all 0.2s linear;
+}
+
+.btn.btn-apply:link,
+.btn.btn-apply:visited,
+.btn.btn-apply:hover,
+.btn.btn-apply:active
+.btn.btn-apply:focus {
+	background-color: #3E5B71;
+	color: #FF6D0C;
+	outline: none;
+}
+
+
+/* Header */
+
+.event-logo {
+	margin-top: 12px;
+	background: url(../img/logo.png) no-repeat;
+	background-size: 100%;
+	margin-left: 15px;
+	width: 85px;
+	height: 45px;
+}
+
+.header {
+	padding-top: 20px;
+}
+
+.header .navbar {
+	margin-bottom: 0;
+	border: none;
+	border-radius: 0;
+}
+
+.header .navbar-default .navbar-toggle {
+	background-color: white;
+}
+
+.header .navbar-default .navbar-nav > li > a {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+.header .navbar-collapse {
+	border-top: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.main .banner {
+	background-color: #F6A141;
+	/* height: 765px; */
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+
+.footer {
+	padding-top: 20px;
+}
+
+.footer ul {
+	padding-left: 0;
+	margin-bottom: 20px;
+}
+
+.footer ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.footer ul li a {
+	color: #384652;
+}
+
+/* ==== Pages ==== */
+
+/* Home */
+.the-destination,
+.daily-schedule {
+	background-color: #F6F7FB;
+}
+
+.twitter-section {
+	padding-top: 40px;
+	background-color: #F6F7FB;
+}
+
+.what-next,
+.who-you-are,
+.who-we-are {
+	background-color: white;
+}
+
+/* What Next */
+.what-next .item,
+.who-you-are .item {
+	margin-bottom: 30px;
+}
+
+.what-next .item .title,
+.who-you-are .item .title {
+	/* TYPE-A PRODUCTIVE: */
+	font-weight: 700;
+	font-size: 20px;
+	color: #FFAE53;
+	letter-spacing: 0.36px;
+	margin-bottom: 30px;
+}
+
+.what-next .item .icon,
+.who-you-are .item .icon {
+	margin-bottom: 30px;
+}
+
+/* Price Section */
+.main > section.price-section {
+	background-color: #FFAE53;
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+
+.price-section .price-title {
+	color: #3E5B71;
+	font-size: 20px;
+}
+
+
+.price-section .the-money,
+.price-section .price-desc {
+	color: white;
+}
+
+.price-section .angel-opportunity {
+	border-bottom: 1px solid #F6F7FB;
+}
+
+.price-section .price-item.sold-out h3,
+.price-section .price-item.sold-out h2,
+.price-section .price-item.sold-out p {
+	opacity: 0.5;
+	position: relative;
+}
+
+.price-section .price-item.sold-out:after {
+	content: "SOLD OUT";
+    font-size: 25px;
+    font-weight: bold;
+    top: 30px;
+    color: white;
+    z-index: 2;
+}
+
+/* Daily Schedule */
+
+.main > section.daily-schedule {
+	padding-bottom: 0;
+	position: relative;
+}
+
+.daily-schedule .note {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	z-index: 1;
+	color: white;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.schedule-top .sub-heading {
+	margin-bottom: 5px;
+}
+
+.schedule-top .small-sub-heading {
+	margin-bottom: 30px;
+}
+
+.schedule-bottom .details {
+	position: relative;
+	opacity: 0;
+	transition: all 0.2s linear;
+}
+
+.schedule-bottom .details p {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	font-size: 25px;
+	padding: 10px;
+	color: white;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+.schedule-bottom {
+	position: relative;
+	padding-bottom: 52px;
+	padding-top: 30px;
+}
+
+.schedule-bottom .itinerary-banner {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	display: none;
+}
+
+.schedule-bottom .day-row {
+	padding-bottom: 10px;
+}
+
+.schedule-bottom .day-row:hover .title,
+.schedule-bottom .day-row:active .title,
+.schedule-bottom .day-row:focus .title ,
+.schedule-bottom .day-row:hover .desc,
+.schedule-bottom .day-row:active .desc,
+.schedule-bottom .day-row:focus .desc {
+	color: #FFAE53;
+}
+
+.schedule-bottom .day-row:hover .details,
+.schedule-bottom .day-row:active .details,
+.schedule-bottom .day-row:focus .details {
+	opacity: 1;
+}
+
+.daily-schedule .title {
+	transition: all 0.2s linear;
+	/* DAY 01: */
+	font-weight: 700;
+	font-size: 26px;
+	letter-spacing: 0.59px;
+	margin-bottom: 0;
+	color: #3E5B71;
+}
+
+.daily-schedule .day {
+	transition: all 0.2s linear;
+}
+
+
+.daily-schedule .desc {
+	font-size: 18px;
+	letter-spacing: 0.78px;
+	color: #3E5B71;
+}
+
+/* Testimonials */
+
+.profile-card {
+	background-color: #fff;
+	padding: 0 20px 20px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+.profile-card .profile-content {
+	padding-top: 80px;
+}
+
+.profile-card .avatar {
+	overflow: hidden;
+	height: 150px;
+	width: 150px;
+	z-index: 1;
+	position: absolute;
+	left: 50%;
+	top: -75px;
+	margin-left: -75px;
+	border-radius: 100px;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	box-shadow: 0 0 0 13px #fff;
+	-webkit-box-shadow: 0 0 0 13px #fff;
+	-moz-box-shadow: 0 0 0 13px #fff;
+}
+
+.profile-card .name {
+	font-size: 32px;
+	font-weight: 600;
+	margin-bottom: 15px;
+	color: #333;
+}
+.profile-card .role {
+	font-size: 13px;
+	color: #00baff;
+	letter-spacing: 1px;
+	margin-bottom: 25px;
+	line-height: 1.3em;
+}
+.profile-card .desc {
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 20px;
+	color: #666;
+}
+
+.testimonials .heading {
+	color: white;
+}
+
+.testimonials .sub-heading {
+	text-transform: uppercase;
+}
+
+.testimonials .section-content {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.testimonials .section-more-content {
+	display: none;
+}
+
+/* .testimonials .see-more-button {
+	display: none;
+}
+ */
+.testimonials .btn-see-more-profile,
+.testimonials .see-full-list-button {
+	margin-bottom: 20px;
+}
+
+.testimonials .see-full-list-button {
+	display: none;
+	color: white !important;
+}
+
+.testimonials .section-content .profile-item:last-child .profile-card {
+	margin-bottom: 0;
+}
+
+/* Who We Are */
+.who-we-are .paragraph {
+	max-width: 454px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.who-we-are img {
+	max-width: 100%;
+}
+
+.apply-now {
+	background-color: #F6A141;
+}
+
+.apply-now .alert {
+	display: none;
+}
+
+.apply-now .form-control {
+	border-radius: 0;
+	border: 0;
+	height: 40px;
+	font-size: 16px;
+}
+
+.apply-now .btn.btn-apply {
+	font-size: 27px;
+}
+
+.apply-now .heading,
+.apply-now .sub-heading {
+	color: white;
+}
+
+.apply-now .sub-heading {
+	margin-bottom: 40px;
+}
+
+.main > section.twitter-section-slider {
+	background-color: #F6F7FB;
+	padding: 10px 0;
+}
+
+.twitter-section-slider .news-heading {
+	margin: 0;
+    font-size: 18px;
+    padding-top: 3px;
+    color: #FFAE53;
+}
+
+.twitter-section-slider.clone {
+	top: -100px;
+	position: fixed;
+	z-index: 3;
+	width: 100%;
+}
+
+.twitter-section-slider.clone.sticked {
+    top: 0;
+}
+
+.twitter-section-slider span {
+	white-space: nowrap;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.twitter-section-slider .twitter-section-items {
+	overflow: hidden;
+	padding-left: 0;
+}
+
+.twitter-section-slider a {
+	font-weight: bold;
+	color: #3E5B71;
+	font-size: 18px;
+	cursor: pointer;
+}
+.testimonials-section {
+	background-color: white;
+}
+
+.testimonials-section .snip {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #F6F7FB;
+  padding-top: 120px;
+  margin-bottom: 10px;
+}
+.testimonials-section .snip * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.testimonials-section .snip img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+}
+.testimonials-section .snip figcaption {
+  width: 100%;
+  background-color: #F6A141;
+  padding: 25px;
+  position: relative;
+}
+.testimonials-section .snip figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent #F6A141;
+}
+.testimonials-section .snip .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 96px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.testimonials-section .snip h3 {
+  font-size: 1.3em;
+  margin: 25px 12px;
+  font-weight: 300;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  color: #3E5B71;
+}
+.testimonials-section .snip h3 span {
+  display: block;
+  font-size: 0.65em;
+}
+.testimonials-section .snip blockquote {
+	line-height: 1.3em;
+	margin: 0 0 10px;
+	padding: 0 0 30px;
+	font-style: italic;
+	font-weight: 300;
+	border-left: none;
+}
+.testimonials-section .snip blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 180px;
+  line-height: 1em;
+  color: #212121;
+  font-style: normal;
+  content: "\201D";
+  right: 20px;
+  bottom: -105px;
+}
+
+/* Languages */
+
+.jp .who-you-are .item .desc, 
+.jp .what-next .item .desc,
+.jp .profile-card .desc {
+	text-align: left;
+}
+
+/* End Languages */
+
+@media screen and (min-width: 768px) {
+	.schedule-bottom .itinerary-banner {
+		display: block;
+	}
+	.daily-schedule .title,
+	.daily-schedule .desc {
+		color: white;
+	}
+}
+
+/* Min width */
+@media screen and (min-width: 631px) {
+	.super-heading {
+		font-size: 70px;
+		text-shadow: 7px 0 #602600;
+	}
+	.btn.btn-apply {
+		font-size: 36px;
+	}
+
+	.what-next .item .title,
+	.who-you-are .item .title {
+		font-size: 26px;
+	}
+
+	.who-you-are .item .desc,
+	.what-next .item .desc {
+		margin: 0 auto;
+		max-width: 50%;
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.heading {
+		font-size: 48px;
+	}
+	.sub-heading {
+		font-size: 26px;
+	}
+	.small-sub-heading {
+		font-size: 18px;
+	}
+	.event-logo {
+		width: 128px;
+		height: 67px;
+	}
+	.header .navbar-default .navbar-nav > li {
+		padding: 15px;
+	}
+
+	.header .navbar-default .navbar-nav > li > a {
+		color: #2A4254;
+		padding: 0px;
+	}
+
+	.header .navbar-nav > li > a:hover,
+	.header .navbar-nav > li > a:focus,
+	.header .navbar-nav > li > a:active {
+		border-bottom: 2px solid #2A4254;
+	}
+
+	.header .navbar-nav {
+		float: right;
+	}
+	.who-you-are .item .desc,
+	.what-next .item .desc {
+		padding-left: 30px;
+		padding-right: 30px;
+		max-width: 100%;
+	}
+
+	.who-you-are .sub-heading:before {
+		top: -12px;
+	}
+
+	.main > section.price-section {
+		background-color: #F6F7FB;
+	}
+
+	.price-section .price-desc,
+	.price-section .the-money {
+		color: #F6A141;
+	}
+
+	.price-section .price-title {
+		font-size: 26px;
+	}
+
+	.price-section .the-money {
+		font-size: 40px;
+	}
+
+	.price-section .angel-opportunity {
+		border-bottom: none;
+	}
+
+	.price-section .price-item.sold-out:after {
+	    color: #F6A141;
+	}
+
+}
+
+@media screen and (min-width: 991px) {
+	.super-heading {
+		font-size: 80px;
+	}
+
+	.who-you-are .item .desc,
+	.what-next .item .desc {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.profile-card {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 1199px) {
+	.super-heading {
+		font-size: 115px;
+	}
+
+	.who-you-are .item .desc,
+	.what-next .item .desc {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+}
+
+.and {
+	margin-bottom: 0;
+	font-size: 16px;
+	line-height: 2em;
+}
